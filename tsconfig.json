@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/mediv-button/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/mediv-button/tsconfig.spec.json"
+    }
+]
 }
