@@ -1,18 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'lib-mediv-button',
-  template: `
-    <p>
-      mediv-button works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: 'mediv-button.component.html',
+  styleUrls: ['mediv-button.component.css']
 })
 export class MedivButtonComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
